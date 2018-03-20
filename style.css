@@ -1,11 +1,102 @@
+/*generelle indstillinger */
 
 body {
     /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
-    background-color: snow;
+    background-color: white;
     margin: 0 auto;
 }
 
-#splash img {
+H1 {
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-size: 1.5em;
+    margin: 0px;
+}
 
+P {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.0em;
+}
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+
+/*splash indstillinger */
+
+#splash img {
     width: 100%;
 }
+
+/*instagram indstillinger */
+
+/*kaffe indstillinger */
+
+#kaffe .column {
+    background-color: white;
+    margin-top: 100px;
+}
+
+.kaos {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+
+.kaos img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.kaffe {
+
+    color: brown;
+
+}
+
+
+.colors {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 10px;
+
+}
+
+.colorbox {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.color1 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    }
+
+.color2 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+/*mad indstillinger */
+
+/*bar indstillinger */
+
+/*information indstillinger */
+
