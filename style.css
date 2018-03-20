@@ -1,0 +1,11 @@
+
+body {
+    /* Vi sikrer os lige at skærmen kan fyldes helt ud! */
+    background-color: snow;
+    margin: 0 auto;
+}
+
+#splash img {
+
+    width: 100%;
+}
